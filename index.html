@@ -1,83 +1,77 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Chat Bot</title>
+    <title>ChatBot</title>
     <style>
-      #main {
-        width: 780px;
-        height: 600px;
+      * {
+        margin: 0;
+        padding: 0;
         font-family: sans-serif;
-        border: 1px solid black;
-        margin: auto;
-        margin-top: 200px;
-      }
-
-      #heading {
-        color: rgba(0, 0, 0, 0.7);
-        margin: 70px 60px 30px 80px;
-        font-size: 60px;
-        word-spacing: 10px;
-        font-weight: 300;
-      }
-
-      #content {
+        letter-spacing: 0.4px;
         font-weight: 100;
-        line-height: 36px;
-        word-spacing: 12px;
-        color: rgba(0, 0, 0, 0.5);
-        font-size: 26px;
       }
 
-      .align {
-        margin: 30px 70px 20px 80px;
+      section {
+        width: 30%;
+        margin: 8% auto;
+        border: 0.2px solid black;
+        padding: 2%;
       }
 
-      #nav-button {
-        height: 50px;
-        text-align: center;
-        background-color: #4184e1;
-        border-radius: 30px;
+      h1 {
+        line-height: 48px;
+        font-size: 42px;
+        color: rgba(0, 0, 0, 0.6);
       }
 
-      #button {
-        color: white;
-        display: inline-block;
-        font-size: 26px;
-        font-weight: 100;
-        padding: 10px;
-        text-decoration: none;
+      section > * {
+        margin: 20px;
       }
 
-      nav + p {
-        font-size: 18px;
-        font-weight: 100;
-        color: rgba(0, 0, 0, 0.4);
-        word-spacing: 8px;
+      p {
+        font-size: 20px;
         line-height: 24px;
+        word-spacing: 4px;
+        color: rgba(0, 0, 0, 0.4);
       }
 
-      #line {
-        border: 2px solid black;
-        width: 100px;
-        margin: 20px 0px 20px 80px;
+      a {
+        padding: 10px;
+        font-size: 20px;
+        display: block;
+        border-radius: 30px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #4184e1;
+      }
+
+      #tnc {
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.2);
+      }
+
+      div {
+        width: 15%;
+        border: 1px solid black;
       }
     </style>
   </head>
   <body>
-    <main id="main">
-      <header id="heading">Build your first chatbot in 10 minutes!</header>
-      <div id="line"></div>
-      <p id="content" class="align">
+    <section>
+      <h1>Built you first Chatbot in 10 minutes!</h1>
+      <div></div>
+      <p>
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot
       </p>
-      <nav id="nav-button" class="align">
-        <a href="" id="button">TRY NOW &rarr;</a>
-      </nav>
-      <p class="align">
+      <a href="#">try now &rarr;</a>
+      <p id="tnc">
         By clicking try now you create an account and agree to our Terms and
         Conditions and Privacy Policy
       </p>
-    </main>
+    </section>
   </body>
 </html>
